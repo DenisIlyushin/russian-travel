@@ -1,4 +1,13 @@
 :root {
   --background-color: #2A2C2F;
   --font-color: #FFF;
+  font-family: 'Inter', Arial, sans-serif;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  /* todo сглаживание на всю страницу? Не нравится, хочу точечно попробовать
+  text-rendering: optimizeLegibility;
+  */
 }
