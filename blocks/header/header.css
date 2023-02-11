@@ -2,14 +2,14 @@
   --spacer-sides: 48px;
   --spacer-top: 28px;
   width: calc(100% - 2 * var(--spacer-sides));
-  margin: 0 auto;
-  padding: var(--spacer-top) var(--spacer-sides) 0px;
+  margin: 0;
+  padding: var(--spacer-top) var(--spacer-sides) 0;
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
 }
 
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 983px) {
   .header {
     --spacer-sides: 24px;
   }
