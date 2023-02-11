@@ -1,6 +1,13 @@
 :root {
+  /* Набор цветов */
   --background-color: #2A2C2F;
   --font-color: #FFF;
+  /* Набор точек перехода */
+  --breakpoint-L: 1279px;
+  --breakpoint-M: 1023px;
+  --breakpoint-S: 767px;
+  --breakpoint-XS: 413px;
+  /* Настройки шрифта */
   font-family: 'Inter', Arial, sans-serif;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
@@ -9,5 +16,8 @@
   -moz-text-size-adjust: 100%;
   /* todo сглаживание на всю страницу? Не нравится, хочу точечно попробовать
   text-rendering: optimizeLegibility;
+
+  А по font-weight – в макете их три: 400, 700 и 900
   */
+
 }

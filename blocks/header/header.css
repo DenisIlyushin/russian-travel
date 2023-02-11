@@ -1,0 +1,25 @@
+.header {
+  --spacer-sides: 48px;
+  --spacer-top: 28px;
+  width: calc(100% - 2 * var(--spacer-sides));
+  margin: 0 auto;
+  padding: var(--spacer-top) var(--spacer-sides) 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+/* --breakpoint-M */
+@media screen and (max-width: 1023px) {
+  .header {
+    --spacer-sides: 24px;
+  }
+}
+
+/* --breakpoint-S */
+@media screen and (max-width: 767px) {
+  .header {
+    --spacer-sides: 16px;
+    --spacer-top: 16px;
+  }
+}
