@@ -4,7 +4,6 @@
   justify-content: space-between;
 }
 
-/* --breakpoint-S */
 @media screen and (max-width: 767px) {
   .header__lang-links {
       width: 62px;

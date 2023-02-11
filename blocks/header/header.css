@@ -9,14 +9,12 @@
   align-items: flex-end;
 }
 
-/* --breakpoint-M */
 @media screen and (max-width: 1023px) {
   .header {
     --spacer-sides: 24px;
   }
 }
 
-/* --breakpoint-S */
 @media screen and (max-width: 767px) {
   .header {
     --spacer-sides: 16px;
