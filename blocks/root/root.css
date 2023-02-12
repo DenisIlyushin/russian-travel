@@ -8,18 +8,17 @@
   --breakpoint-S: 767px;
   --breakpoint-XS: 413px; */
   /* Настройки шрифта */
-  font-family: 'Inter', Arial, sans-serif;
-  font-style: normal;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
-  /* TODO сглаживание на всю страницу? Не нравится, хочу точечно попробовать
+  font-family: 'Inter', Arial, sans-serif;
+  font-style: normal;
   text-rendering: optimizeLegibility;
 
+  /* TODO сглаживание на всю страницу? Не нравится, хочу точечно попробовать
   А по font-weight – в макете их три: 400, 700 и 900
-
   https://vc.ru/dev/178033-dinamicheskoe-masshtabirovanie-elementov-v-css?ysclid=le0hrfht58850592019
   */
 
