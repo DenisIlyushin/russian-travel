@@ -2,6 +2,7 @@
   /* Набор цветов */
   --background-color: #2a2c2f;
   --font-color: #fff;
+  --url-caption-color: #aaa;
   /* Набор точек перехода */
   /* --breakpoint-L: 1279px;
   --breakpoint-M: 1023px;
@@ -16,10 +17,4 @@
   font-family: 'Inter', Arial, sans-serif;
   font-style: normal;
   text-rendering: optimizeLegibility;
-
-  /* TODO сглаживание на всю страницу? Не нравится, хочу точечно попробовать
-  А по font-weight – в макете их три: 400, 700 и 900
-  https://vc.ru/dev/178033-dinamicheskoe-masshtabirovanie-elementov-v-css?ysclid=le0hrfht58850592019
-  */
-
 }
