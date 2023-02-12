@@ -2,7 +2,6 @@
   --spacer-sides: 48px;
   --spacer-top: 92px;
   max-width: 1184px;
-  max-height: 671px;
   width: calc(100% - 2 * var(--spacer-sides));
   height: calc(100% - var(--spacer-top));
   margin: 0;
@@ -14,7 +13,6 @@
   .photo-grid {
     --spacer-sides: 24px;
     --spacer-top: 88px;
-    max-height: 942px;
   }
 }
 
@@ -22,6 +20,5 @@
   .photo-grid {
     --spacer-sides: 16px;
     --spacer-top: 64px;
-    max-height: 1668px;
   }
 }
