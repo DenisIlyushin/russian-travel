@@ -15,10 +15,12 @@
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
-  /* todo сглаживание на всю страницу? Не нравится, хочу точечно попробовать
+  /* TODO сглаживание на всю страницу? Не нравится, хочу точечно попробовать
   text-rendering: optimizeLegibility;
 
   А по font-weight – в макете их три: 400, 700 и 900
+
+  https://vc.ru/dev/178033-dinamicheskoe-masshtabirovanie-elementov-v-css?ysclid=le0hrfht58850592019
   */
 
 }
