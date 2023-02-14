@@ -9,7 +9,7 @@
   align-items: flex-end;
 }
 
-@media screen and (max-width: 983px) {
+@media screen and (max-width: 1023px) {
   .header {
     --spacer-sides: 24px;
   }
