@@ -29,7 +29,7 @@
 }
 
 @media screen and (max-width: 767px) {
-  .cover__background{
+  .cover__background {
       min-height: 200px;
   }
 }
