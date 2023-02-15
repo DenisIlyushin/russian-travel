@@ -4,5 +4,5 @@
   padding: var(--intro-spacer-top) var(--intro-spacer-sides) 0;
   display: flex;
   flex-direction: column;
-  align-items: left;
+  align-items: start;
 }
