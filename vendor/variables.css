@@ -52,7 +52,7 @@
 
   .lead {
     --lead-spacer-sides: 0;
-    --spacer-top: 48px;
+    --lead-spacer-top: 48px;
   }
 
   .intro {
