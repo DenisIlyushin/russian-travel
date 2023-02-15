@@ -3,35 +3,27 @@
   --background-color: #2a2c2f;
   --font-color: #fff;
   --place__url-caption-color: #aaa;
-
   /* Переменные блока header */
   --header-spacer-sides: 48px;
   --header-spacer-top: 28px;
-
   /* Переменные блока lead */
   --lead-spacer-sides: 148px;
   --lead-spacer-top: 56px;
-
   /* Переменные блока intro */
   --intro-spacer-sides: 148px;
   --intro-spacer-top: 92px;
-
   /* Переменные блока photo-grid */
   --photo-grid-spacer-sides: 48px;
   --photo-grid-spacer-top: 92px;
-
   /* Переменные блока places */
   --places-spacer-sides: 148px;
   --places-spacer-top: 92px;
-
   /* Переменные блока cover */
   --cover-spacer-top: 92px;
   --cover-spacer-sides: 48px;
-
   /* Переменные блока footer */
   --footer-spacer-sides: 48px;
   --footer-spacer-top: 92px;
-
 }
 
 @media screen and (max-width: 1279px) {
