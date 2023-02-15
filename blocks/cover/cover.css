@@ -1,26 +1,6 @@
 .cover {
-  --spacer-sides: 48px;
-  --spacer-top: 92px;
   max-width: 1184px;
-  width: calc(100% - 2 * var(--spacer-sides));
+  width: calc(100% - 2 * var(--cover-spacer-sides));
   margin: 0 auto;
-  padding: var(--spacer-top) var(--spacer-sides) 0;
-}
-
-@media screen and (max-width: 1279px) {
-  .cover {
-    --spacer-sides: 0;
-  }
-}
-
-@media screen and (max-width: 1023px) {
-  .cover {
-    --spacer-top: 90px;
-  }
-}
-
-@media screen and (max-width: 767px) {
-  .cover {
-    --spacer-top: 66px;
-  }
+  padding: var(--cover-spacer-top) var(--cover-spacer-sides) 0;
 }

@@ -1,30 +1,8 @@
 .intro {
-  --spacer-sides: 148px;
-  --spacer-top: 92px;
-  width: calc(100% - 2 * var(--spacer-sides));
+  width: calc(100% - 2 * var(--intro-spacer-sides));
   margin: 0;
-  padding: var(--spacer-top) var(--spacer-sides) 0;
+  padding: var(--intro-spacer-top) var(--intro-spacer-sides) 0;
   display: flex;
   flex-direction: column;
   align-items: left;
-}
-
-@media screen and (max-width: 1279px) {
-  .intro {
-    --spacer-sides: 48px;
-  }
-}
-
-@media screen and (max-width: 1023px) {
-  .intro {
-    --spacer-sides: 24px;
-    --spacer-top: 88px;
-  }
-}
-
-@media screen and (max-width: 767px) {
-  .intro {
-    --spacer-sides: 16px;
-    --spacer-top: 64px;
-  }
 }

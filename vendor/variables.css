@@ -2,5 +2,119 @@
   /* Набор цветов */
   --background-color: #2a2c2f;
   --font-color: #fff;
-  --url-caption-color: #aaa;
+  --place__url-caption-color: #aaa;
+
+  /* Переменные блока header */
+  --header-spacer-sides: 48px;
+  --header-spacer-top: 28px;
+
+  /* Переменные блока lead */
+  --lead-spacer-sides: 148px;
+  --lead-spacer-top: 56px;
+
+  /* Переменные блока intro */
+  --intro-spacer-sides: 148px;
+  --intro-spacer-top: 92px;
+
+  /* Переменные блока photo-grid */
+  --photo-grid-spacer-sides: 48px;
+  --photo-grid-spacer-top: 92px;
+
+  /* Переменные блока places */
+  --places-spacer-sides: 148px;
+  --places-spacer-top: 92px;
+
+  /* Переменные блока cover */
+  --cover-spacer-top: 92px;
+  --cover-spacer-sides: 48px;
+
+  /* Переменные блока footer */
+  --footer-spacer-sides: 48px;
+  --footer-spacer-top: 92px;
+
+}
+
+@media screen and (max-width: 1279px) {
+  .lead {
+    --lead-spacer-sides: 48px;
+    --lead-spacer-top: 48px;
+  }
+
+  .intro {
+    --intro-spacer-sides: 48px;
+  }
+
+  .places {
+    --places-spacer-sides: 48px;
+  }
+
+  .cover {
+    --cover-spacer-sides: 0;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .header {
+    --header-spacer-sides: 24px;
+  }
+
+  .lead {
+    --lead-spacer-sides: 0;
+    --spacer-top: 48px;
+  }
+
+  .intro {
+    --intro-spacer-sides: 24px;
+    --intro-spacer-top: 88px;
+  }
+
+  .photo-grid {
+    --photo-grid-spacer-sides: 24px;
+    --photo-grid-spacer-top: 88px;
+  }
+  
+  .places {
+    --places-spacer-sides: 24px;
+    --places-spacer-top: 68px;
+  }
+
+  .cover {
+    --cover-spacer-top: 90px;
+  }
+
+  .footer {
+    --footer-spacer-sides: 24px;
+    --footer-spacer-top: 88px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .header {
+    --header-spacer-sides: 16px;
+    --header-spacer-top: 16px;
+  }
+
+  .intro {
+    --intro-spacer-sides: 16px;
+    --intro-spacer-top: 64px;
+  }
+
+  .photo-grid {
+    --photo-grid-spacer-sides: 16px;
+    --photo-grid-spacer-top: 64px;
+  }
+  
+  .places {
+    --places-spacer-sides: 0px;
+    --places-spacer-top: 64px;
+  }
+
+  .cover {
+    --cover-spacer-top: 66px;
+  }
+
+  .footer {
+    --footer-spacer-sides: 16px;
+    --footer-spacer-top: 64px;
+  }
 }

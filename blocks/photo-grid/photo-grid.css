@@ -1,23 +1,6 @@
 .photo-grid {
-  --spacer-sides: 48px;
-  --spacer-top: 92px;
   max-width: 1184px;
-  width: calc(100% - 2 * var(--spacer-sides));
+  width: calc(100% - 2 * var(--photo-grid-spacer-sides));
   margin: 0;
-  padding: var(--spacer-top) var(--spacer-sides) 0;
-}
-
-
-@media screen and (max-width: 1023px) {
-  .photo-grid {
-    --spacer-sides: 24px;
-    --spacer-top: 88px;
-  }
-}
-
-@media screen and (max-width: 767px) {
-  .photo-grid {
-    --spacer-sides: 16px;
-    --spacer-top: 64px;
-  }
+  padding: var(--photo-grid-spacer-top) var(--photo-grid-spacer-sides) 0;
 }

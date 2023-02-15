@@ -8,5 +8,5 @@
   text-rendering: optimizeLegibility;
   letter-spacing: 2px;
   text-transform: uppercase;
-  color: var(--url-caption-color, #aaa);
+  color: var(--place__url-caption-color, #aaa);
 }
