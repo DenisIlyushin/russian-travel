@@ -12,6 +12,10 @@
   .places__list {
     row-gap: 73px;
   }
+
+  .places__list:last-of-type {
+    row-gap: 71px;
+  }
 }
 
 @media screen and (max-width: 767px) {
